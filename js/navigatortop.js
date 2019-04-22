@@ -6,17 +6,19 @@
         )
        
         $(".area .area-box li").each(function(){
-                $(this).mouseover(function(){
-                    $(this).addClass("li-over");
-                })   
-            }
-         )
-         $(".area .area-box li").each(function(){
-            $(this).mouseout(function(){
-                $(this).removeClass("li-over");
-            })   
-        }
-     )
+            $(this).hover(function(){
+                $(this).addClass("li-over");
+            },function(){
+                $(this).removeClass("li-over")
+            })
+               
+        })
+    //      $(".area .area-box li").each(function(){
+    //         $(this).mouseout(function(){
+    //             $(this).removeClass("li-over");
+    //         })   
+    //     }
+    //  )
     })
     $(".area ").mouseout(function(){
         $(".area ").mouseout(function(){
