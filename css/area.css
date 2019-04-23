@@ -6,18 +6,22 @@
 }
 body{
     background-color: #f5f5f5;
+    font:12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #3c3c3c;
 }
 .navigator-wrapper{
     margin: 0 auto;
     width: 1304px;
     height: 35px;
     background-color: #f5f5f5;
+    position: fixed;
 }
 .navigator-wrapper div{
     display: inline-block;
     position: relative;
     height: 35px;
     padding: 0 5px;
+    
 }
 .navigator-wrapper span{
     height: 35px;
@@ -28,12 +32,13 @@ body{
     text-align: center;
     line-height: 35px;
     padding-right: 10px;
-    cursor: pointer;
+    cursor: pointer;   
 }
 .menu-over{
     background-color : rgb(251, 251, 251);
-    border-left: 1px solid #c2c2c2;
-    border-right:1px solid #c2c2c2;
+    border-left: 1px solid rgba(194, 194, 194,0.5);
+    border-right:1px solid rgba(194, 194, 194,0.5);
+    box-sizing: border-box;
 }
 .li-over{
     background-color: rgba(156, 156, 156, 0.3);
@@ -49,6 +54,9 @@ body{
     position: absolute;
     left:50px;
 }
+.navigator-wrapper .left .area{
+    box-sizing: border-box;
+}
 .navigator-wrapper .left .area .area-box{
     position: absolute;
     width: 300px;
@@ -58,10 +66,11 @@ body{
     left: -1px;
     top: 35px;
     background-color: rgb(251, 251, 251);
-    border-left:1px solid #c2c2c2;
-    border-bottom: 1px solid #c2c2c2;
+    border-left:1px solid rgba(194, 194, 194,0.5);
+    border-bottom: 1px solid rgba(194, 194, 194,0.5);
     display: none;
     padding: 0;
+    box-sizing: border-box;  
 }
 .navigator-wrapper .left .area .area-box li{
     width: 300px;

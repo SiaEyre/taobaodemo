@@ -1,0 +1,88 @@
+.user .userMsg{
+    position: absolute;
+    top: 35px;
+    left:-1px;
+    width: 250px;
+    height: 125px;
+    border-left: 1px solid rgba(194, 194, 194,0.5);
+    border-right: 1px solid rgba(194, 194, 194,0.5);
+    border-bottom: 1px solid rgba(194, 194, 194,0.5);
+    background-color:  rgb(251, 251, 251);
+    display: none;
+}
+.user .userMsg .quit{
+    float: right;
+}
+.user .userMsg .quit span{
+    position: relative;
+    left: 74px;
+    top: 3px;
+    display: inline-block;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #3C3C3C;
+}
+.user .userMsg .quit a{
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #3C3C3C;
+    margin: 0 5px;
+}
+.user .userMsg .userImg img{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 20px;
+    left: 5px;
+    border-radius: 50%;
+}
+.user .userMsg .userImg .msg{
+    position: absolute;
+    height: 68px;
+    width: 68px;
+    left: 88px;
+    top: 33px;
+}
+.user .userMsg .userImg .msg p{
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #6c6c6c;
+}
+.user .userMsg .equity{
+    width: 240px;
+    height: 18px;
+    background-color: rgb(252, 227, 235);
+    padding: 5px;
+    text-align: center;
+    line-height: 18px;
+    position: absolute;
+    top: 90px;
+    left: 5px;
+}
+.user .userMsg .equity a{
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #6c6c6c;   
+}
+.user-over{
+    background-color : rgb(251, 251, 251);
+    border-left: 1px solid rgba(194, 194, 194,0.5);
+    border-right:1px solid rgba(194, 194, 194,0.5);
+    box-sizing: border-box;
+}
+/* .user .userMsg .equity .quit-span-over{
+    color: #ff5011;
+} */
+
+.message .msgbox{
+    position: absolute;
+    top: 35px;
+    left: 5px;
+    width: 200px;
+    background-color: rgb(251, 251, 251);
+    border-left: 1px solid rgba(194, 194, 194,0.5);
+    border-right: 1px solid rgba(194, 194, 194,0.5);
+    border-bottom: 1px solid rgba(194, 194, 194,0.5);
+}
+.message .msgbox p{
+    color:#6c6c6c;
+    position: absolute;
+    left: 150px;
+    top: 13px;
+}
