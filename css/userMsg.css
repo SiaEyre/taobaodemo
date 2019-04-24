@@ -73,12 +73,13 @@
 .message .msgbox{
     position: absolute;
     top: 35px;
-    left: 5px;
+    left: -1px;
     width: 200px;
     background-color: rgb(251, 251, 251);
     border-left: 1px solid rgba(194, 194, 194,0.5);
     border-right: 1px solid rgba(194, 194, 194,0.5);
     border-bottom: 1px solid rgba(194, 194, 194,0.5);
+    display: none;
 }
 .message .msgbox p{
     color:#6c6c6c;

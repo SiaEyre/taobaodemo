@@ -58,11 +58,20 @@
             $(this).removeClass("user-over");
             $(".user .userMsg").hide();
         })
-
-
-
-
-
+        //消息
+        $(".message").hover(function(){
+            $(this).addClass("user-over");
+            $(".msgbox").show();
+            $(".msgbox>p").hover(function(){
+                $(this).css("color","#ff5011");
+                },function(){
+                    $(this).css('color','#6c6c6c');
+                })
+        },function(){
+            $(this).removeClass("user-over");
+            $(".msgbox").hide();
+        })
+        //
 
 
     })
