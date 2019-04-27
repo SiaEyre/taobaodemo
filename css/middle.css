@@ -1,0 +1,154 @@
+.middle{
+    position: relative;
+    width: 100%;
+    height: 121px;
+    background-color: #fff;
+    margin-top: 40px;
+}
+.middle .imgbox{
+    position: absolute;
+    width: 190px;
+    height: 80px;
+    left: 48px;
+    top: 8px;
+}
+.middle .imgbox .img{
+    width: 100%;
+    height: 100%;
+}
+.middle .search-ip{
+    position: relative;
+    margin-top: 15px;
+    margin-left:300px ;
+    width: 627px;
+    height: 60px;
+}
+.middle .search-ip li{
+    float: left;
+}
+.middle .search-ip .search-trigger{
+    position: relative;
+    width: 150px;
+    height: 32px;
+    left: 60px;
+    top: 18px;
+}
+.middle .search-ip .search-trigger li{
+    width: 36px;
+    height: 22px;
+    margin-right: 11px;
+    color: #f5000f;
+    text-align: center;
+    line-height: 22px;
+}
+.middle .search-ip .search-trigger .baobei{
+    color: #fff;
+    background:linear-gradient(to right,#ff9000,#ff4200); 
+    border-radius: 15% 15% 0 0;
+}
+.middle .search-ip input{
+    width: 472px;
+    height: 36px;
+    border: 2px solid #ff9000;
+    outline: none;
+    border-radius: 18px;
+    margin-left: 50px;
+    margin-top: 7px;
+    text-indent: 2em;
+}
+.middle .search-ip .search-icon img{
+    position: absolute;
+    left: 60px;
+    top: 52px;
+}
+.middle .search-ip .cameraicon img{
+    position: absolute;
+    left: 446px;
+    top: 49px;
+}
+.middle .search-ip .btn{
+    position: absolute;
+    width: 74px;
+    height: 40px;
+    top: 39px;
+    left: 487px;
+}
+.middle .search-ip .btn button{
+    background:linear-gradient(to right,#ff9000,#ff4200); 
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    font-weight: 700;
+    height: 100%;
+    width:100%;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    outline: none;
+}
+.middle .search-ip .search-lists{
+    margin-left: 52px;
+    margin-top: 5px;
+}
+.middle .search-ip .search-lists a{
+    width: 36px;
+    height: 32px;
+    margin-right: 4px;
+    color: #3c3c3c;
+
+}
+.middle .erweima{
+    margin-top: -60px;
+    margin-left: 1000px;
+    width: 80px;
+    height: 80px;
+}
+.middle .erweima img{
+    widows: 100%;
+    height: 100%;
+}
+.middle .erweima span{
+    display: inline-block;
+    margin-left: -10px;
+    text-align: center;
+    line-height: 10px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #6c6c6c;;
+}
+.nav-hd{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+.nav-hd .nav-hd-left{
+    float: left;
+    width: 190px;
+    background-color: #ff5000;
+    font-weight: 700;
+    margin-left: 50px;
+    font-size: 16px;    
+}
+.nav-hd .nav-hd-right{
+    margin-left: 240px;
+    margin-right: 50px;
+    height: 30px;
+    background:linear-gradient(to right,#ff9000, #ff5000); 
+    font-weight: 300;
+}
+
+.nav-hd .nav-hd-right a{
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 10px;
+}
+.nav-hd .nav-hd-right .left a{
+    font-size: 16px;
+}
+.nav-hd .nav-hd-right .nav-middle,
+.nav-hd .nav-hd-right .right{
+    font-size: 14px;
+}
