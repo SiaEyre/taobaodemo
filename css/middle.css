@@ -1,16 +1,15 @@
 .middle{
-    position: relative;
+
     width: 100%;
     height: 121px;
     background-color: #fff;
     margin-top: 40px;
 }
 .middle .imgbox{
-    position: absolute;
     width: 190px;
     height: 80px;
-    left: 48px;
-    top: 8px;
+    margin-left: 48px;
+    margin-top: 8px;
 }
 .middle .imgbox .img{
     width: 100%;
@@ -27,11 +26,10 @@
     float: left;
 }
 .middle .search-ip .search-trigger{
-    position: relative;
     width: 150px;
     height: 32px;
-    left: 60px;
-    top: 18px;
+    margin-left: 60px;
+    margin-top: -77px;
 }
 .middle .search-ip .search-trigger li{
     width: 36px;
@@ -53,25 +51,25 @@
     outline: none;
     border-radius: 18px;
     margin-left: 50px;
-    margin-top: 7px;
+    margin-top: -12px;
     text-indent: 2em;
 }
 .middle .search-ip .search-icon img{
     position: absolute;
     left: 60px;
-    top: 52px;
+    top:34px;
 }
 .middle .search-ip .cameraicon img{
     position: absolute;
     left: 446px;
-    top: 49px;
+    top: 32px;
 }
 .middle .search-ip .btn{
-    position: absolute;
+ 
     width: 74px;
     height: 40px;
-    top: 39px;
-    left: 487px;
+    margin-top: -40px;
+    margin-left: 487px;
 }
 .middle .search-ip .btn button{
     background:linear-gradient(to right,#ff9000,#ff4200); 
@@ -94,7 +92,6 @@
     height: 32px;
     margin-right: 4px;
     color: #3c3c3c;
-
 }
 .middle .erweima{
     margin-top: -60px;
@@ -121,6 +118,7 @@
     text-align: center;
     line-height: 30px;
     color: #fff;
+    overflow: hidden;
 }
 .nav-hd .nav-hd-left{
     float: left;
@@ -128,7 +126,8 @@
     background-color: #ff5000;
     font-weight: 700;
     margin-left: 50px;
-    font-size: 16px;    
+    font-size: 16px;  
+    cursor: pointer;  
 }
 .nav-hd .nav-hd-right{
     margin-left: 240px;
@@ -137,7 +136,9 @@
     background:linear-gradient(to right,#ff9000, #ff5000); 
     font-weight: 300;
 }
-
+.nav-hd .nav-hd-right ul>li{
+    float: left;
+}
 .nav-hd .nav-hd-right a{
     color: #fff;
     font-weight: 700;
@@ -151,4 +152,36 @@
 .nav-hd .nav-hd-right .nav-middle,
 .nav-hd .nav-hd-right .right{
     font-size: 14px;
+}
+.list {
+    width:190px ;
+    border:1px solid #ff4200;
+    margin-left: 50px;
+    box-sizing: border-box;
+    background: #fff;
+    float: left;
+}
+
+.list > li {
+    width: 190px;
+    height: 32px;
+    padding: 0 19px 0 15px;
+
+}
+.list > li a{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+.list > li span{
+    float: right;
+    margin-right: 20px;
+}
+.imgbox-center{
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin: 10px;
 }
